@@ -2,3 +2,169 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  /* background-color: aquamarine; */
+  margin: 0;
+}
+
+body * {
+  color: #45514f;
+}
+.header-line,
+header {
+  /* background-color: #a6d000; */
+  background-color: #b3ea59;
+  /* background-color: #a5ee87; */
+  /* background-color: #7acc62; */
+  /* background-color: #d4f9b9; */
+}
+header {
+  height: 65px;
+  overflow: hidden;
+  position: relative;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  /* background-color: white; */
+  margin-right: 4%;
+  width: max-content;
+  overflow: hidden;
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 380px) {
+  header nav ul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 380px) {
+  .i-c {
+    display: none;
+  }
+  .login-form {
+    border: solid;
+    /* border-width: 0.1px;
+    border-color: #1fa31f; */
+    padding: 35px 15px 80px 15px;
+    border-color: #a4ce00;
+    border-style: solid;
+    border-width: 2px;
+  }
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  width: max-content;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  color: #45514f;
+}
+header a {
+  text-decoration: none;
+}
+
+.i-c {
+  font-size: 40px;
+  color: #45514f;
+}
+
+.logo {
+  border: solid;
+  border-width: 0.2px;
+  color: white;
+  float: left;
+  /* height: 40px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* padding-top: 13px;
+  padding-bottom: 13px; */
+  padding: 13px 5px;
+  margin-left: 10px;
+}
+
+.content {
+  width: 100%;
+  overflow: hidden;
+}
+
+.login-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 350px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.login-form * {
+  display: block;
+}
+.login-form input[type="text"] {
+  height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border-color: #a4ce00;
+  border-style: solid;
+  border-width: 1px;
+  color: #45514f;
+}
+
+.login-form input[type="text"]:nth-child(2) {
+  margin-top: 15px;
+}
+/*----- disable auto zoom in in iOS---- */
+.login-form input,
+select:focus,
+textarea {
+  font-size: 16px;
+}
+
+/*----- end disable auto zoom in in iOS---- */
+
+.login-form button {
+  font-size: 1.2em;
+  margin-top: 45px;
+  width: 100%;
+  display: block;
+  background-color: #b3ea59;
+  border: none;
+  color: #45514f;
+  height: 40px;
+}
+.login-form button {
+  padding: 5px;
+}
+
+.register {
+  margin-top: 30px;
+  text-align: center;
+  color: #45514f;
+}
+.register a {
+  width: 100%;
+  color: #45514f;
+}
+
+.forgot-password {
+  margin-top: 20px;
+  text-align: center;
+  color: #45514f;
+}
+
+.forgot-password a {
+  width: 100%;
+  color: #45514f;
+}
