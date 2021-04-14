@@ -1,0 +1,42 @@
+.header-line,
+header {
+  /* background-color: #a6d000; */
+  background-color: #b3ea59;
+  /* background-color: #a5ee87; */
+  /* background-color: #7acc62; */
+  /* background-color: #d4f9b9; */
+}
+
+header {
+  height: 65px;
+  overflow: hidden;
+  position: relative;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+}
+nav {
+  /* background-color: white; */
+  margin-right: 4%;
+  width: max-content;
+  overflow: hidden;
+  position: absolute;
+  /* bottom: 10%; */
+  right: 0;
+  font-size: 1.2em;
+}
+
+.logo {
+  border: solid;
+  border-width: 0.2px;
+  color: white;
+  float: left;
+  /* height: 40px; */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  /* padding-top: 13px;
+  padding-bottom: 13px; */
+  padding: 13px 5px;
+  margin-left: 10px;
+}

@@ -1,0 +1,21 @@
+.verticalMenuContainer {
+  background: white;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  margin-right: 0px;
+  margin-left: auto;
+  width: fit-content;
+}
+
+ul li {
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+div.verticalMenuContainer li {
+  display: block;
+}
